@@ -1,0 +1,77 @@
+/* 1. Universal Selector -> In this we select the whole page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+/* 2. Type Selector -> In this we select the type of element */
+ h1{
+    color: blue;
+    font-size: 2rem;
+    text-align: center;
+ }
+ p{
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin:1rem;
+ }
+/* 3. Class Selector -> In this we select the class of element */
+ .highlight{
+    background-color: yellow;
+    font-weight: bold;
+ }
+/* 4. ID Selector -> In this we select the id of element */
+    #header{
+        background-color: #f4f4f4;
+        padding: 1rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+/* 5. Attribute Selector -> In this we select the Attribute of element */
+    input[type="text"]{
+        padding: 0.5rem;
+        border: 2px dashed #ccc;
+        border-radius: 5px;
+        margin: 1rem;
+    }
+/* 6. Descendant Selector -> In this we select the child of element */
+    article p{
+        color: green;
+        font-size: 1.2rem;
+    }
+/* 7. Child Selector -> In this we select the child of element */
+    ul > li{
+        list-style-type: square;
+        margin: 0.5rem 0;
+    }
+/* 8. Adjacent Sibling Selector -> In this we select the sibling of element */
+    h2 + p{
+        color: red;
+        font-size: 1.2rem;
+    }
+/* 9. General Sibling Selector -> In this we select the sibling of element */
+    h2 ~ p{
+        color: purple;
+        font-size: 1.2rem;
+    }
+/* 10. Pseudo-class Selector -> In this we select the pseudo-class of element */
+    a:hover{
+        color: orange;
+        text-decoration: underline;
+    }
+/* 11. Pseudo-element Selector -> In this we select the pseudo-element of element */
+    p::first-letter{
+        font-size: 2rem;
+        color: red;
+    }
+/* 12. Grouping Selector -> In this we select the group of element */
+    h1, h2, h3{
+        color: #333;
+        font-family: Arial, sans-serif;
+    }
+/* 13. Combinator Selector -> In this we select the combinator of element */
+    h1 + p{
+        color: blue;
+        font-size: 1.2rem;
+    }
