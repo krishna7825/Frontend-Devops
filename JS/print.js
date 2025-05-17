@@ -1,0 +1,10 @@
+// console.log("Hello");
+// process.stdout.write("Hello world");
+// process.stdout.write("Hello world \n");
+// console.log("Hello world");
+console.table({ name: "John", age: 30 });
+console.warn({ name: "John", age: 30 });
+console.error({ name: "John", age: 30 });
+console.info({ name: "John", age: 30 });
+console.debug({ name: "John", age: 30 });
+console.log("Hello world", { name: "John", age: 30 });
